@@ -1,0 +1,26 @@
+.pan {
+    display: inline;
+}
+
+.box {
+    float: left;
+    height: 600px;
+    width: 600px;
+    border: 1px solid silver;
+    background-color: #f7e600;
+}
+
+.grid {
+    background-size: 33.22px 33.22px;
+    background-image: linear-gradient(to right, black 2px, transparent 1px), linear-gradient(to bottom, black 2px, transparent 1px);    
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-size: 30px;
+    font-family: 궁서;
+    
+}
